@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+##Serve on prod
+
+create server.js
+
+install dependencies
+npm i express-http-proxy -save
+npm i cors --save
+npm i port --save
+
+build
+ng build
+
+start server
+node server.js
